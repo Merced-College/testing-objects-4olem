@@ -46,10 +46,15 @@ public class ObjectTester {
         System.out.println("d3 age via getter = " + d3.getAge());
         System.out.println("d3 now = " + d3);
 
+    //making a defualt album object 
+    Album album1 = new Album();
+    //Making a album object with given data!
+    Album album2 = new Album("Selfish Machines", "Piece The Veil", 500.0);
+    System.out.println("album object 1"+ album1);
+    System.out.println("album object 2"+ album2);
 
 
 
-    }
-
+}
    
 }
