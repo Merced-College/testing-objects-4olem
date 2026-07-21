@@ -2,5 +2,15 @@
 # testingObjectsWithJava
 
 Write your answers to your reflection questions here. Write your name, the date and the answers.
+Brandon Diaz
+7/20/2026
+Answers:
+Q1: it will return a string represenataion of the object!It is hashed as well!
+Q2: String has a capital which means it's a pointer, while the interger that isn't capital = primitive 
+Q3: That the user becomes responsible for making the constriuctors, resposbible for allocatoing the memory within the constructors!
+Q4: We're overwriting and able to print out our data variables, each object is able to call the tostring. Java now knows whenever something is inside a print line it will call OUR tostring method.
+Q5: Now our code is standarized, and it keeps it secure! An example is student fields, or salary amount all things that need to be private!
+Reflection:
+
 
 Make sure to push your code to your repo!
