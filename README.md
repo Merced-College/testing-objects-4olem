@@ -11,6 +11,7 @@ Q3: That the user becomes responsible for making the constriuctors, resposbible 
 Q4: We're overwriting and able to print out our data variables, each object is able to call the tostring. Java now knows whenever something is inside a print line it will call OUR tostring method.
 Q5: Now our code is standarized, and it keeps it secure! An example is student fields, or salary amount all things that need to be private!
 Reflection:
-
+Q2: My classes 3 fields were: Name, Artist, recordsSold and their defualt values were "unknown" "unknown" and 0.0.
+Q5:Before adding toString, what printed was Dog@1b6d3586.This is the default output from Java's built-in Object,toString() method, which every class inherits automatically. It prints the class name followed by the @ symbol and the object's memory address in hexadecimal.
 
 Make sure to push your code to your repo!

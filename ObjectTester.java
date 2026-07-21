@@ -52,9 +52,19 @@ public class ObjectTester {
     Album album2 = new Album("Selfish Machines", "Piece The Veil", 500.0);
     System.out.println("album object 1"+ album1);
     System.out.println("album object 2"+ album2);
+    //usimng parameterized contrsuctors/testing them
+    Album album3 = new Album("More Life", "Drake", 3.0); // uses parameterized constructor
+    System.out.println("\nalbum3 after parameterized constructor:");
+    System.out.println("name = " + album3.getName() + ", artist = " + album3.getArtist() + ", recordsSold = " + album3.getRecordsSold());
 
-
-
-}
-   
+    //using the override/our tostring method
+    System.out.println("\nPrinting objects after overriding toString():");
+    System.out.println("album2 = " + album2);
+    System.out.println("album3 = " + album3);
+    // messing with the mutations on one getter and one setter
+    System.out.println("\nMutating public fields directly:");
+    album3.setArtist("Drizzy");      // direct write
+    album3.setName("passionfruit's album"); // direct write
+    System.out.println("After mutation, album3 = " + album3); // uses toString()
+  } 
 }
